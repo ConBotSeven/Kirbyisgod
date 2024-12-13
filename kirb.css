@@ -1,49 +1,22 @@
-body {background-color: #FFFFFF;
-	color: #FFFFFF;
-	font-family: Verdana, Arial, sans-serif;
-}
-
-header {background-color: #9BC1C2;
-	background-image: url(kirb.jpg);
-	height: 150px;
-	background-position: right;
+body{background-image:url(goodbg.jpg);
 	background-repeat: no-repeat;
-}
-
-main {padding-left: 2em;
-	padding-right: 2em;
-}
-
-h1 {padding-top: 50px;
-	padding-left: 2em;
-}
-
-nav {text-align: center;
-	font-weight: bold;
-	padding: 1em;
-}
-
-img {padding-right: 1em;
-	padding-left: 1em;
-}
-
-#hero {text-align: center;}
-	
-nav a {text-decoration: none;}
-
-.poyo {font-style: italic;}
-
-footer {background-color: #9BC1C2;
-	font-size: .60em;
-	font-style: italic;
-	text-align: center;
-	padding: 1em;
-}
-	
-#wrapper {width: 80%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #F5F5F5;
-	min-width: 1000px;
-	max-width: 1280px;
-}
+background-attachment: fixed;
+background-size: 100% 100%;
+color: white;
+font-family: Verdana, Arial, sans-serif;
+letter-spacing: -1px;}
+a {
+	text-decoration: none;
+	}
+	a:link {
+		color: white; /* Unvisited link */
+		}
+		a:visited {
+		color: pink; /* Visited link */
+		}
+		footer{font-size: 12px;
+			color: white;
+			font-family: Verdana, Arial, sans-serif;}
+			img{width:500px;
+				height:400px; 
+				margin:right; }
