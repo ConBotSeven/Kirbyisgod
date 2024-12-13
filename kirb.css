@@ -9,7 +9,7 @@ a {
 	text-decoration: none;
 	}
 	a:link {
-		color: white; /* Unvisited link */
+		color: yellow; /* Unvisited link */
 		}
 		a:visited {
 		color: pink; /* Visited link */
